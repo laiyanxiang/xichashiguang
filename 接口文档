@@ -1,0 +1,19 @@
+功能：首页新品的轮播图
+路径：/api/home/banner
+请求方式：GET
+参数:无
+返回值：{img：图片路径,id:图片id}
+
+功能：所有店铺列表
+路径：/api/home/shopinglist
+请求方式：GET
+参数：无
+返回值：[
+    {id: , shopinglist:[{id:'',name:''}],address:'' , lan:'',lat:''}
+]
+
+功能：所有店铺列表
+路径：/api/menu/list
+请求方式：GET
+参数：无
+返回值:json
